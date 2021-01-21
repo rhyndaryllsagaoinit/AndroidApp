@@ -34,18 +34,21 @@ public class ExpandableListDataPumpGum {
                 "Periodontitis is common but largely preventable.");
 
         List<String> prevent = new ArrayList<String>();
-        prevent.add("Periodontitis (per-e-o-don-TIE-tis), also called gum disease, " +
-                "is a serious gum infection that damages the soft tissue and, without treatment, " +
-                "can destroy the bone that supports your teeth. " +
-                "Periodontitis can cause teeth to loosen or lead to tooth loss. " +
-                "Periodontitis is common but largely preventable.");
+        prevent.add("First-line treatment options\n\n" +
+                "1. Brush your teeth at least twice a day. ...\n\n" +
+                "2. Opt for an electric toothbrush to maximize your cleaning potential.\n\n" +
+                "3. Make sure your toothbrush has soft or extra-soft bristles.\n\n" +
+                "4. Replace your toothbrush every three months.\n\n" +
+                "5. Floss daily.\n\n" +
+                "6. Use a natural mouthwash.\n\n" +
+                "7. Visit your dentist at least once a year.");
 
 
         expandableListDetail.put("What is dental Plaque?", plaque);
         expandableListDetail.put("What is Calculus?", calculus);
         expandableListDetail.put("What is Gingivitis?", gingivitis);
         expandableListDetail.put("What is Periodontitis?", periodontitis);
-        expandableListDetail.put("How can you help prevent a Gum Diesease?", prevent);
+        expandableListDetail.put("How can you help prevent a Gum Diesease at home?", prevent);
         return expandableListDetail;
     }
 }

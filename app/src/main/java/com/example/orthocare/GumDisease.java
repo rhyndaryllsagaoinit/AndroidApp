@@ -24,7 +24,7 @@ public class GumDisease extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gum_disease);
         expandableListView = (ExpandableListView) findViewById(R.id.expandableListView);
-        expandableListDetail= ExpandableListDataPumpHygiene.getData();
+        expandableListDetail= ExpandableListDataPumpGum.getData();
         expandableListTitle = new ArrayList<String>(expandableListDetail.keySet());
         expandableListAdapter = new CustomExpandableListAdapter(this, expandableListTitle, expandableListDetail);
         expandableListView.setAdapter(expandableListAdapter); {

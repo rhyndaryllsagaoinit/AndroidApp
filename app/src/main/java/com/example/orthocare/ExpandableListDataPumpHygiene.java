@@ -41,7 +41,7 @@ public class ExpandableListDataPumpHygiene {
                 "•Loose or lost crowns, bridges or veneers.\n\n" +
                 "•Broken, rubbing or loose dentures.\n\n" +
                 "•Bleeding gums\n\n" +
-                "Broken, loose or lost fillings.\n\n" +
+                "•Broken, loose or lost fillings.\n\n" +
                 "•Chipped teeth with no pain.\n\n" +
                 "•Loose orthodontic wires.");
 
